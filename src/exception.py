@@ -1,6 +1,7 @@
 ## Exception handling code
 import sys
 import logging
+from src.logger import logging
 
 def error_message_detail(error,error_details:sys):
     _,_,exe_tb = error_details.exc_info() #shares the exception details
